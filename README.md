@@ -11,8 +11,8 @@ Loop Pulse Backend Processing
 
 2. Install virtualenv and virtualenvwrapper
   ```
-  $pip install virtualenv
-  $pip install virtualenvwrapper
+  pip install virtualenv
+  pip install virtualenvwrapper
   ```
 
 3. Configure virtualenvwrapper
@@ -25,7 +25,7 @@ Loop Pulse Backend Processing
 
 4. Create a virtual environment for the project
   ```
-  $mkvirtualenv looppulse.web.processing --python=PATH/TO/PYTHON3
+  mkvirtualenv looppulse.web.processing --python=PATH/TO/PYTHON3
   ```
   For mac, PATH/TO/PYTHON3 looks something like:
   ```
@@ -34,8 +34,10 @@ Loop Pulse Backend Processing
 
 5. Start the virtual environment (It's automatically started the first time after mkvirtualenv is executed)
   ```
-  $workon looppulse.web.processing
+  workon looppulse.web.processing
   ```
+
+6. Alternatively, pyenv can be used. The tutorial is [here](http://amaral-lab.org/resources/guides/pyenv-tutorial)
 
 **Everything belows are run inside the project virtual environment!**
 
