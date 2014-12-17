@@ -39,6 +39,10 @@ Loop Pulse Backend Processing
 
 6. Alternatively, pyenv can be used. The tutorial is [here](http://amaral-lab.org/resources/guides/pyenv-tutorial)
 
+### Deployment Development
+
+Follow [heroku toolset](https://devcenter.heroku.com/articles/getting-started-with-python#set-up) and [run the app locally](https://devcenter.heroku.com/articles/getting-started-with-python#run-the-app-locally)
+
 **Everything belows are run inside the project virtual environment!**
 
 ### Managing Dependencies
