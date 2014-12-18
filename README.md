@@ -43,6 +43,8 @@ Loop Pulse Backend Processing
 
 Follow [heroku toolset](https://devcenter.heroku.com/articles/getting-started-with-python#set-up) and [run the app locally](https://devcenter.heroku.com/articles/getting-started-with-python#run-the-app-locally)
 
+[Install and run redis locally](http://redis.io/download) for rq
+
 **Everything belows are run inside the project virtual environment!**
 
 ### Managing Dependencies

@@ -1,2 +1,2 @@
-worker: node encounter_generator/server.js
-worker: python start.py
+encounter-generator: node encounter_generator/main.js
+main-queue: python wqueue/worker.py 
